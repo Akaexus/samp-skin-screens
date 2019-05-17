@@ -5,5 +5,6 @@
 	"rcon_password": "1234",
 	"port": 7777,
 	"hostname": "testowiec",
-	"maxplayers": 32
+	"maxplayers": 32,
+	"plugins": ["sscanf"]
 }

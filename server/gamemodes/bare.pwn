@@ -2,7 +2,7 @@
 #include <core>
 #include <float>
 #include <zcmd>
-// #include <sscanf>
+#include <sscanf>
 
 #pragma tabsize 0
 
@@ -165,4 +165,24 @@ CMD:arrange2(playerid,params[]) {
 	// SetPlayerWeather(playerid, 4);
 	// SetPlayerTime(playerid, 12, 0);
 	return 1;
+}
+
+CMD:i(playerid, params[]) {
+	new x;
+	new y;
+	new z;
+	new interior;
+	if(sscanf(params, "iiii", x, y, z, interior)) {
+		SendClientMessage(playerid, 0xffffff, "Nie podałeś wszystkich paramsów!");
+	} else {
+		// SendClientMessage(playerid, 0xffffff, x);
+		// SendClientMessage(playerid, 0xffffff, y);
+		// SendClientMessage(playerid, 0xffffff, z);
+		// SendClientMessage(playerid, 0xffffff, interior);
+		
+		printf("%d %d %d %d", x, y, z, interior);
+		SetPlayerPos(playerid, x, y, z);
+		SetPlayerInterior(playerid, interior);
+		GivePlayerWeapon(playerid, 43, 20);
+	}
 }

@@ -6,7 +6,8 @@
 	"dependencies": [
 		"sampctl/samp-stdlib",
 		"maddinat0r/sscanf",
-		"southclaws/zcmd"
+		"southclaws/zcmd",
+		"maddinat0r/sscanf:v2.8.3"
 	],
 	"runtime": {
 		"version": "0.3.7",
