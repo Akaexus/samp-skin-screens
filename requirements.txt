@@ -8,7 +8,7 @@ checkbox-ng==0.23
 checkbox-support==0.22
 clint==0.5.1
 command-not-found==0.3
-cryptography==2.1.4
+cryptography==2.3
 cupshelpers==1.0
 cycler==0.10.0
 distro-info===0.18ubuntu0.18.04.1
