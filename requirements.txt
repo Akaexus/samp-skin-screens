@@ -64,7 +64,7 @@ python3-xlib==0.15
 PyTweening==1.0.3
 pytz==2018.3
 pyxdg==0.25
-PyYAML==3.12
+PyYAML==5.1
 reportlab==3.4.0
 requests==2.20.0
 requests-unixsocket==0.1.5
