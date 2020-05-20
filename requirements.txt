@@ -19,7 +19,7 @@ Glances==2.11.1
 greenlet==0.4.12
 guacamole==0.9.2
 html5lib==0.999999999
-httplib2==0.9.2
+httplib2==0.18.0
 idna==2.7
 influxdb==4.1.1
 Jinja2==2.10
