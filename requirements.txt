@@ -15,7 +15,7 @@ distro-info===0.18ubuntu0.18.04.1
 docker==2.5.1
 docker-pycreds==0.2.1
 docopt==0.6.2
-Glances==2.11.1
+Glances==3.2.1
 greenlet==0.4.12
 guacamole==0.9.2
 html5lib==0.999999999
