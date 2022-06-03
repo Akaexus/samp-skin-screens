@@ -1,7 +1,7 @@
 args==0.1.0
 asn1crypto==0.24.0
 beautifulsoup4==4.6.0
-bottle==0.12.13
+bottle==0.12.20
 certifi==2018.10.15
 chardet==3.0.4
 checkbox-ng==0.23
