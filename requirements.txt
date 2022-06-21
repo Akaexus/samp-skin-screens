@@ -33,7 +33,7 @@ msgpack==0.5.6
 mutagen==1.41.1
 neovim==0.2.0
 netifaces==0.10.4
-numpy==1.13.3
+numpy==1.22.0
 olefile==0.45.1
 padme==1.1.1
 pexpect==4.2.1
